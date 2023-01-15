@@ -6,6 +6,12 @@ import img4 from "../assets/about images/about-img-4.webp";
 import img5 from "../assets/about images/about-img-5.webp";
 import img6 from "../assets/about images/about-img-6.webp";
 import catGB from "../assets/call-to-action-BG.jpg";
+import testiBG from "../assets/shape-2.65541c6a.png";
+import avaterBG1 from "../assets/Avater/testimonial-left.png";
+import avaterBG2 from "../assets/Avater/testimonial-right.png";
+import avater1 from "../assets/Avater/testi-thumb-1.png";
+import avater2 from "../assets/Avater/testi-thumb-2.png";
+import avater3 from "../assets/Avater/testi-thumb-3.png";
 
 const About = () => {
   return (
@@ -124,6 +130,62 @@ const About = () => {
               Apply Job Now
             </button>
           </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section
+        className='py-[100px] relative overflow-hidden'
+        style={{
+          background: `url(${testiBG}) no-repeat center center`,
+        }}>
+        <div className='mb-[50px] text-center'>
+          <h2 className='text-[#202124] text-3xl font-medium'>
+            Testimonials From Our Customers
+          </h2>
+          <p className='text-[#696969] mt-[15px] text-[15px]'>
+            Lorem ipsum dolor sit amet elit, sed do eiusmod tempor
+          </p>
+        </div>
+
+        <div className='container max-w-xl mx-auto'>
+          <div className='flex flex-col items-center w-full p-6 space-y-8 rounded-md lg:h-full lg:p-8 dark:text-gray-100'>
+            <img
+              src={avater1}
+              alt=''
+              className='w-28 h-28 rounded-full border-[10px] border-white shadow-lg'
+            />
+
+            <h4 className='text-[#1967d2] text-lg '>Unique Design!</h4>
+
+            <blockquote className='max-w-lg text-base italic text-center text-[#696969]'>
+              Without JobHunt i’d be homeless, they found me a job and got me
+              sorted out quickly with everything! Can’t quite… The Mitech team
+              works really hard to ensure high level of quality
+            </blockquote>
+
+            <div className='flex space-x-2'>
+              <button
+                type='button'
+                aria-label='Page 1'
+                className='w-2 h-2 rounded-full  bg-[#bfc8cb]'></button>
+              <button
+                type='button'
+                aria-label='Page 2'
+                className='w-2 h-2 rounded-full  bg-[#bfc8cb]'></button>
+              <button
+                type='button'
+                aria-label='Page 3'
+                className='w-2 h-2 rounded-full  bg-[#bfc8cb]'></button>
+            </div>
+          </div>
+        </div>
+
+        <div className='absolute -left-[300px] top-1/3'>
+          <img src={avaterBG1} alt='' />
+        </div>
+        <div className='absolute -right-[300px] top-1/3'>
+          <img src={avaterBG2} alt='' />
         </div>
       </section>
     </div>
