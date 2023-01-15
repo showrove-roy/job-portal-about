@@ -5,6 +5,7 @@ import img3 from "../assets/about images/about-img-3.webp";
 import img4 from "../assets/about images/about-img-4.webp";
 import img5 from "../assets/about images/about-img-5.webp";
 import img6 from "../assets/about images/about-img-6.webp";
+import catGB from "../assets/call-to-action-BG.jpg";
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
       {/* About Hero section */}
       <section className='py-[50px]'>
         {/* Image gallery */}
-        <div className='grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4'>
+        <div className='grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 max-w-7xl'>
           <img src={img1} alt='' className=' rounded shadow-sm' />
           <div className='flex gap-3 flex-col'>
             <img alt='' className='rounded shadow-sm' src={img2} />
@@ -92,6 +93,37 @@ const About = () => {
             bluebird after outside ignobly allegedly more when oh arrogantly
             vehement irresistibly fussy.
           </p>
+        </div>
+      </section>
+
+      {/* call-to-action Section */}
+      <section
+        className='py-40'
+        style={{
+          background: `url(${catGB}) no-repeat center center / cover`,
+        }}>
+        <div className='mx-auto text-center'>
+          <div className='mb-8'>
+            <h2 className='text-3xl font-medium text-white'>
+              Your Dream Jobs Are Waiting
+            </h2>
+            <p className='mt-[15px] text-[15px] text-white'>
+              Over 1 million interactions, 50,000 success stories Make yours
+              now.
+            </p>
+          </div>
+          <div className=''>
+            <button
+              type='button'
+              className='px-9 py-4 rounded-lg bg-[#e2eaf8] hover:bg-[#0146a6] text-[#1967d2] hover:text-white text-[15px] m-3'>
+              Search Job
+            </button>
+            <button
+              type='button'
+              className='px-9 py-4 rounded-lg bg-[#f9ab00] hover:bg-[#e9a000] text-white text-[15px] m-3'>
+              Apply Job Now
+            </button>
+          </div>
         </div>
       </section>
     </div>
