@@ -15,6 +15,10 @@ import avater3 from "../assets/Avater/testi-thumb-3.png";
 import workicon1 from "../assets/works/work-1.png";
 import workicon2 from "../assets/works/work-2.png";
 import workicon3 from "../assets/works/work-3.png";
+import company1 from "../assets/companis/1-1.png";
+import company2 from "../assets/companis/1-2.png";
+import company3 from "../assets/companis/1-5.png";
+import company4 from "../assets/companis/1-6.png";
 
 const About = () => {
   return (
@@ -48,28 +52,28 @@ const About = () => {
 
         {/* Fun factor section */}
         <div className='max-w-[900px] mx-auto pb-8 pt-12'>
-          <div className='flex justify-around'>
+          <div className='flex justify-around px-2 gap-2 text-center'>
             <div className='mb-[30px]'>
-              <div className='mb-[10px] text-[#202124] font-medium text-[50px] text-center'>
+              <div className='mb-[10px] text-[#202124] font-medium text-4xl md:text-[50px] text-center'>
                 4M
               </div>
-              <h4 className='text-[15px] font-normal text-[#696969]'>
+              <h4 className='text-xs sm:text-[15px] font-normal text-[#696969]'>
                 4 million daily active users
               </h4>
             </div>
             <div className='mb-[30px]'>
-              <div className='mb-[10px] text-[#202124] font-medium text-[50px] text-center'>
+              <div className='mb-[10px] text-[#202124] font-medium text-4xl md:text-[50px] text-center'>
                 12K
               </div>
-              <h4 className='text-[15px] font-normal text-[#696969]'>
+              <h4 className='text-xs sm:text-[15px] font-normal text-[#696969]'>
                 Over 12k open job positions
               </h4>
             </div>
             <div className='mb-[30px]'>
-              <div className='mb-[10px] text-[#202124] font-medium text-[50px] text-center'>
+              <div className='mb-[10px] text-[#202124] font-medium text-4xl md:text-[50px] text-center'>
                 20M
               </div>
-              <h4 className='text-[15px] font-normal text-[#696969]'>
+              <h4 className='text-xs sm:text-[15px] font-normal text-[#696969]'>
                 Over 20 million stories shared
               </h4>
             </div>
@@ -77,7 +81,7 @@ const About = () => {
         </div>
 
         {/* Text Box */}
-        <div className='max-w-[900px] mx-auto'>
+        <div className='max-w-[900px] mx-auto px-2'>
           <h4 className='font-medium text-[#202124] text-3xl mb-8'>
             About Superio
           </h4>
@@ -138,7 +142,7 @@ const About = () => {
 
       {/* Testimonials Section */}
       <section
-        className='py-[100px] relative overflow-hidden'
+        className='py-[100px] relative overflow-hidden px-3'
         style={{
           background: `url(${testiBG}) no-repeat center center`,
         }}>
@@ -184,10 +188,10 @@ const About = () => {
           </div>
         </div>
 
-        <div className='absolute -left-[300px] top-1/3'>
+        <div className='absolute -left-[300px] top-1/3 md:block hidden'>
           <img src={avaterBG1} alt='' />
         </div>
-        <div className='absolute -right-[300px] top-1/3'>
+        <div className='absolute -right-[300px] top-1/3 md:block hidden'>
           <img src={avaterBG2} alt='' />
         </div>
       </section>
@@ -201,7 +205,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className='flex justify-evenly'>
+        <div className='flex justify-evenly flex-wrap gap-y-6 px-2'>
           <div className='max-w-sm pt-[50px] pb-[60px] px-11 rounded-lg shadow-sm cursor-pointer hover:shadow-lg bg-white dark:text-gray-50 text-center'>
             <img src={workicon1} alt='' className='mx-auto mb-8' />
 
@@ -238,6 +242,18 @@ const About = () => {
               potential matches.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Company section  */}
+      <section className='py-[60px]'>
+        <div className='flex flex-wrap md:justify-around justify-center gap-4 px-5'>
+          <img src={company1} alt='' className='w-28' />
+          <img src={company2} alt='' className='w-28' />
+          <img src={company3} alt='' className='w-28' />
+          <img src={company1} alt='' className='w-28' />
+          <img src={company3} alt='' className='w-28' />
+          <img src={company4} alt='' className='w-28' />
         </div>
       </section>
     </div>
