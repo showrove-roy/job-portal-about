@@ -1,4 +1,10 @@
 import React from "react";
+import img1 from "../assets/about images/about-img-1.jpg";
+import img2 from "../assets/about images/about-img-2.webp";
+import img3 from "../assets/about images/about-img-3.webp";
+import img4 from "../assets/about images/about-img-4.webp";
+import img5 from "../assets/about images/about-img-5.webp";
+import img6 from "../assets/about images/about-img-6.webp";
 
 const About = () => {
   return (
@@ -17,36 +23,16 @@ const About = () => {
       {/* About Hero section */}
       <section className='py-[50px]'>
         <div className='grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4'>
-          <img
-            src='../../assets/about images/about-img-1.jpg'
-            alt=''
-            className='w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square'
-          />
-          <img
-            alt=''
-            className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-            src=''
-          />
-          <img
-            alt=''
-            className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-            src='https://source.unsplash.com/random/200x200/?1'
-          />
-          <img
-            alt=''
-            className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-            src='https://source.unsplash.com/random/200x200/?2'
-          />
-          <img
-            alt=''
-            className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-            src='https://source.unsplash.com/random/200x200/?3'
-          />
-          <img
-            alt=''
-            className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-            src='https://source.unsplash.com/random/200x200/?4'
-          />
+          <img src={img1} alt='' className=' rounded shadow-sm' />
+          <div className='flex gap-3 flex-col'>
+            <img alt='' className='rounded shadow-sm' src={img2} />
+            <img alt='' className=' rounded shadow-sm' src={img3} />
+          </div>
+          <div className='flex gap-3 flex-col'>
+            <img alt='' className=' rounded shadow-sm' src={img4} />
+            <img alt='' className=' rounded shadow-sm' src={img5} />
+          </div>
+          <img alt='' className=' rounded shadow-sm' src={img6} />
         </div>
       </section>
     </div>
