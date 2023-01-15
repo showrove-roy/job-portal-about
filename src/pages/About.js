@@ -22,6 +22,7 @@ const About = () => {
 
       {/* About Hero section */}
       <section className='py-[50px]'>
+        {/* Image gallery */}
         <div className='grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4'>
           <img src={img1} alt='' className=' rounded shadow-sm' />
           <div className='flex gap-3 flex-col'>
@@ -33,6 +34,36 @@ const About = () => {
             <img alt='' className=' rounded shadow-sm' src={img5} />
           </div>
           <img alt='' className=' rounded shadow-sm' src={img6} />
+        </div>
+
+        {/* Fun factor section */}
+        <div className='max-w-[900px] mx-auto pb-8 pt-12'>
+          <div className='flex justify-around'>
+            <div className='mb-[30px]'>
+              <div className='mb-[10px] text-[#202124] font-medium text-[50px] text-center'>
+                4M
+              </div>
+              <h4 className='text-[15px] font-normal text-[#696969]'>
+                4 million daily active users
+              </h4>
+            </div>
+            <div className='mb-[30px]'>
+              <div className='mb-[10px] text-[#202124] font-medium text-[50px] text-center'>
+                12K
+              </div>
+              <h4 className='text-[15px] font-normal text-[#696969]'>
+                Over 12k open job positions
+              </h4>
+            </div>
+            <div className='mb-[30px]'>
+              <div className='mb-[10px] text-[#202124] font-medium text-[50px] text-center'>
+                20M
+              </div>
+              <h4 className='text-[15px] font-normal text-[#696969]'>
+                Over 20 million stories shared
+              </h4>
+            </div>
+          </div>
         </div>
       </section>
     </div>
