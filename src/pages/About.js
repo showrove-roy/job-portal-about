@@ -12,6 +12,9 @@ import avaterBG2 from "../assets/Avater/testimonial-right.png";
 import avater1 from "../assets/Avater/testi-thumb-1.png";
 import avater2 from "../assets/Avater/testi-thumb-2.png";
 import avater3 from "../assets/Avater/testi-thumb-3.png";
+import workicon1 from "../assets/works/work-1.png";
+import workicon2 from "../assets/works/work-2.png";
+import workicon3 from "../assets/works/work-3.png";
 
 const About = () => {
   return (
@@ -186,6 +189,55 @@ const About = () => {
         </div>
         <div className='absolute -right-[300px] top-1/3'>
           <img src={avaterBG2} alt='' />
+        </div>
+      </section>
+
+      {/* Work Section  */}
+      <section className='py-[100px] bg-[#f5f7fc]'>
+        <div className='text-center mb-[50px]'>
+          <h2 className='text-3xl font-medium text-[#202124]'>How It Works?</h2>
+          <p className='mt-[15px] text-[15px] text-[#696969] '>
+            Job for anyone, anywhere
+          </p>
+        </div>
+
+        <div className='flex justify-evenly'>
+          <div className='max-w-sm pt-[50px] pb-[60px] px-11 rounded-lg shadow-sm cursor-pointer hover:shadow-lg bg-white dark:text-gray-50 text-center'>
+            <img src={workicon1} alt='' className='mx-auto mb-8' />
+
+            <h5 className='text-lg font-medium text-[#363636] mb-[10px]'>
+              Free Resume Assessments
+            </h5>
+
+            <p className='text-[#696969] text-sm'>
+              Employers on average spend 31 seconds scanning resumes to identify
+              potential matches.
+            </p>
+          </div>
+          <div className='max-w-sm pt-[50px] pb-[60px] px-11 rounded-lg shadow-sm cursor-pointer hover:shadow-lg bg-white dark:text-gray-50 text-center'>
+            <img src={workicon2} alt='' className='mx-auto mb-8' />
+
+            <h5 className='text-lg font-medium text-[#363636] mb-[10px]'>
+              Job Fit Scoring
+            </h5>
+
+            <p className='text-[#696969] text-sm'>
+              Employers on average spend 31 seconds scanning resumes to identify
+              potential matches.
+            </p>
+          </div>
+          <div className='max-w-sm pt-[50px] pb-[60px] px-11 rounded-lg shadow-sm cursor-pointer hover:shadow-lg bg-white dark:text-gray-50 text-center'>
+            <img src={workicon3} alt='' className='mx-auto mb-8' />
+
+            <h5 className='text-lg font-medium text-[#363636] mb-[10px]'>
+              Help Every Step of the Way
+            </h5>
+
+            <p className='text-[#696969] text-sm'>
+              Employers on average spend 31 seconds scanning resumes to identify
+              potential matches.
+            </p>
+          </div>
         </div>
       </section>
     </div>
