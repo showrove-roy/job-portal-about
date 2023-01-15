@@ -65,6 +65,34 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        {/* Text Box */}
+        <div className='max-w-[900px] mx-auto'>
+          <h4 className='font-medium text-[#202124] text-3xl mb-8'>
+            About Superio
+          </h4>
+
+          <p className='text-[#696969] text-[15px] mb-[26px]'>
+            Far much that one rank beheld bluebird after outside ignobly
+            allegedly more when oh arrogantly vehement irresistibly fussy
+            penguin insect additionally wow absolutely crud meretriciously
+            hastily dalmatian a glowered inset one echidna cassowary some parrot
+            and much as goodness some froze the sullen much connected bat
+            wonderfully on instantaneously eel valiantly petted this along
+            across highhandedly much.
+          </p>
+          <p className='text-[#696969] text-[15px] mb-[26px]'>
+            Repeatedly dreamed alas opossum but dramatically despite
+            expeditiously that jeepers loosely yikes that as or eel underneath
+            kept and slept compactly far purred sure abidingly up above fitting
+            to strident wiped set waywardly far the and pangolin horse approving
+            paid chuckled cassowary oh above a much opposite far much
+            hypnotically more therefore wasp less that hey apart well like while
+            superbly orca and far hence one.Far much that one rank beheld
+            bluebird after outside ignobly allegedly more when oh arrogantly
+            vehement irresistibly fussy.
+          </p>
+        </div>
       </section>
     </div>
   );
