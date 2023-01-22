@@ -5,4 +5,4 @@
 - React Js
 - Tailwind CSS
 
-[Live Site](https://sparkly-cajeta-b42235.netlify.app/)
+[Live Site](https://sparkly-cajeta-b42235.netlify.app/){:target="\_blank" rel="noopener"}
