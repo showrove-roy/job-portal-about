@@ -6,4 +6,4 @@
 - Tailwind CSS
 
 [Live Site](https://sparkly-cajeta-b42235.netlify.app/){:target="\_blank" rel="noopener"}
-<a href="https://sparkly-cajeta-b42235.netlify.app/" target="_blank">Go</a>
+<a href="https://sparkly-cajeta-b42235.netlify.app/" target="blank">Go</a>
